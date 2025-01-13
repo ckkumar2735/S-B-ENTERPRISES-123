@@ -1,0 +1,67 @@
+.about-text{
+    margin-top: 50px;
+}
+.about-text1{
+   text-align: left;
+    font-size: 20px;
+}
+.carosl-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.overlap-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+@media (min-width:320px) and (max-width: 480px) 
+{
+    .about-text{
+        margin-top: -4px;
+    }
+    .about-text1{
+        /* text-align: left; */
+         font-size: 12px;
+     }
+     .carosl-img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .table>:not(caption)>*>* {
+        font-size: 10px ;
+    }
+  }
+  @media (min-width:481px) and (max-width: 768px) 
+  {
+    .carosl-img{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .about-text1{
+        /* text-align: left; */
+         font-size: 14px;
+     }
+     .about-text{
+        margin-top: 33px
+    }
+    .table>:not(caption)>*>* {
+        font-size: 14px ;
+    }
+  }
+
+  @media (min-width:769px) and (max-width: 992px) 
+  {
+    .about-text1 {
+        text-align: left;
+        font-size: 14px;
+    }
+  }
